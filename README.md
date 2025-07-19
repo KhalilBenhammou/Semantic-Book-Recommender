@@ -44,40 +44,6 @@ semantic-book-recommender/
 ├── README.md
 └── requirements.txt
 ```
-
----
-
-## ⚙️ Installation
-
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/your_username/semantic-book-recommender.git
-   cd semantic-book-recommender
-   ```
-
-2. **Set up a virtual environment** (recommended)  
-   ```bash
-   python -m venv venv
-   source venv/bin/activate       # On Windows: venv\Scripts\activate
-   ```
-
-3. **Install dependencies**  
-   ```bash
-   pip install -r requirements.txt
-   ```
-
----
-
-## ▶️ Running the Dashboard
-
-Launch the interactive dashboard by executing:
-
-```bash
-python src/gradio-dashboard.py
-```
-
-Navigate to the provided URL in your browser to explore recommendations.
-
 ---
 
 ## 🗃️ Datasets
@@ -104,30 +70,16 @@ Explore the analysis and development process through interactive notebooks:
 
 ## 📦 Dependencies
 
-- Pandas  
-- NumPy  
+- Pandas
+- Seaborn 
+- NumPy
+- Kagglehub
+- Notebook
 - Gradio  
 - LangChain  
 - Hugging Face Embeddings (`sentence-transformers/all-MiniLM-L6-v2`)  
 - ChromaDB  
 
 ---
-
-## 🤝 Contributing
-
-Contributions are encouraged! Fork the repository, create a feature branch, and submit your improvements via pull requests.
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License.
-
----
-
-## 📧 Contact
-
-- **GitHub**: [Your GitHub Profile](https://github.com/your_username)  
-- **Email**: your.email@example.com  
 
 Happy Reading! 📖✨
